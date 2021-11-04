@@ -27,14 +27,13 @@
 }
 
 .airplane{
-    width: 500px;
+    width: 600px;
     position: absolute;
     bottom: 150px;
     right: -200px;
-    animation: plane 5s linear;
+    animation: plane 5s linear infinite;
     -webkit-animation: plane 5s linear infinite;
     transform-origin: 100% 50%;
-     
 }
 
 @keyframes plane{
@@ -53,10 +52,10 @@
         -o-transform: translateX(-500px) translateY(0px) rotate(0deg);
 }
     100%{
-        transform: translateX(-1500px) translateY(-200px) rotate(20deg);
-        -webkit-transform: translateX(-1500px) translateY(-200px) rotate(20deg);
-        -moz-transform: translateX(-1500px) translateY(-200px) rotate(20deg);
-        -ms-transform: translateX(-1500px) translateY(-200px) rotate(20deg);
-        -o-transform: translateX(-1500px) translateY(-200px) rotate(20deg);
-}
+        transform: translateX(-1500px) translateY(-200px) rotate(30deg);
+        -webkit-transform: translateX(-1500px) translateY(-200px) rotate(30deg);
+        -moz-transform: translateX(-1500px) translateY(-200px) rotate(30deg);
+        -ms-transform: translateX(-1500px) translateY(-200px) rotate(30deg);
+        -o-transform: translateX(-1500px) translateY(-200px) rotate(30deg);
+    }
 }
